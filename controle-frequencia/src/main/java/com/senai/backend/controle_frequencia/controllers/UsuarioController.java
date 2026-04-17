@@ -53,7 +53,7 @@ public class UsuarioController {
         if(usuarioService.atualizarUsuario(id, usuario) !=null){
             return "Usuário atualizado com sucesso";
         }
-        return "Falha ao atualizar o usuário";
+        return "Falha ao atualizar o usuário"; 
     }
     
 }
